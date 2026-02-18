@@ -1,4 +1,11 @@
 <style>
+    button {
+        transition: background-color 0.3s ease,
+                    width 0.3s ease,
+                    box-shadow 0.3s ease,
+                    transform 0.1s ease,
+                    opacity 0.2s ease;
+    }
     .subs {
         background-color: #c80000;
         color: white;
@@ -10,18 +17,36 @@
         margin-right: 8px;
     }
 
+    .subs:hover {
+        background-color: #0a66c2;
+        width: 110px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .subs:active {
+        opacity: 0.6;
+        transform: scale(0.96);
+    }
     .join {
         background-color: white;
         color: #2976d3;
-        border: solid;
-        border-width: 1px;
-        border-color: #2976d3;
+        border: 1px solid #2976d3;
         border-radius: 2px;
         height: 30px;
         width: 62px;
         cursor: pointer;
     }
 
+    .join:hover {
+        background-color: #2976d3;
+        color: white;
+        width: 70px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    .join:active {
+        transform: scale(0.95);
+    }
     .tweet {
         background-color: #2976d3;
         color: white;
@@ -35,7 +60,17 @@
         margin-left: 8px;
     }
 
-    .Uber {
+    .tweet:hover {
+        background-color: #1d5fbf;
+        width: 70px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .tweet:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .uber {
         background-color: black;
         color: #ffffff;
         border: none;
@@ -44,8 +79,16 @@
         cursor: pointer;
     }
 
+    .uber:hover {
+        opacity: 0.8;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .uber:active {
+        transform: scale(0.95);
+    }
     .Amazon {
-        background-color: rgb(255, 216, 20);
+        background-color: #ffd814;
         color: #000000;
         border: none;
         border-radius: 15px;
@@ -54,6 +97,15 @@
         cursor: pointer;
     }
 
+    .Amazon:hover {
+        background-color: #f7ca00;
+        width: 170px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .Amazon:active {
+        transform: scale(0.97);
+    }
     .github {
         background-color: #2ea44f;
         color: #ffffff;
@@ -66,6 +118,14 @@
         cursor: pointer;
     }
 
+    .github:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+        width: 85px;
+    }
+
+    .github:active {
+        transform: translateY(2px);
+    }
     .Bootstrap {
         background-color: #7952b3;
         color: #ffffff;
@@ -78,20 +138,37 @@
         cursor: pointer;
     }
 
+    .Bootstrap:hover {
+        background-color: #6842a3;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        width: 130px;
+    }
+
+    .Bootstrap:active {
+        transform: scale(0.96);
+    }
     .download {
         background-color: white;
         color: #6c757d;
         font-size: 15px;
         font-weight: bold;
-        border: solid;
-        border-width: 1px;
+        border: 1px solid #6c757d;
         border-radius: 3px;
-        border-color: #6c757d;
         height: 30px;
         width: 100px;
         cursor: pointer;
     }
 
+    .download:hover {
+        background-color: #6c757d;
+        color: white;
+        width: 110px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    .download:active {
+        transform: scale(0.95);
+    }
     .linkedin {
         background-color: #0a66c2;
         color: white;
@@ -103,20 +180,38 @@
         width: 220px;
         cursor: pointer;
     }
+
+    .linkedin:hover {
+        background-color: #084f99;
+        width: 230px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .linkedin:active {
+        transform: scale(0.97);
+    }
     .save {
         background-color: white;
         color: #0a66c2;
         font-size: 15px;
         font-weight: bold;
-        border: solid;
-        border-width: 1px;
+        border: 1px solid #0a66c2;
         border-radius: 13px;
         height: 30px;
         width: 70px;
         cursor: pointer;
     }
 
-    
+    .save:hover {
+        background-color: #0a66c2;
+        color: white;
+        width: 80px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .save:active {
+        transform: scale(0.95);
+    }
 
 </style>
 
