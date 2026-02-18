@@ -1,0 +1,47 @@
+<style>
+    .stretch {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 9px 10px;
+        transition: background-color 1s, transform 1s;
+        margin: 5px 10px;
+        transform-origin: top left;
+    }
+    .stretch:hover {
+        opacity: 0.5;
+        transform: scale(1.3);
+    }
+
+    .shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 9px 10px;
+        transition: background-color 1s, transform 1s;
+        margin: 5px 10px;
+        transform-origin: top left;
+    }
+    .shadow:hover {
+        transform: translateZ(50px) rotate(10deg);
+    }
+</style>
+<button class="stretch">
+    stretch
+</button>
+
+<button class="shadow">
+    shadow
+</button>
+
+<button class="one">
+    one
+</button>
+
+<button class="two">
+    two
+</button>
+
+<button class="three">
+    three
+</button>
